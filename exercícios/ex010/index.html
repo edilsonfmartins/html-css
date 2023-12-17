@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando link âncora</title>
+
+</head> 
+<body>
+    <h1>Vamos criar um link</h1>
+    <!-- A TAG "a" é utilizada para criar âncoras. O principal atributo desta tag e o href, que cria uma referência hipertexto-->
+
+    <h2><hr>Utilizando a Tag "a" e o atributo href</hr></h2>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf">Acesse meu perfil GitHub</a>
+
+    <!--Outro atributo bem útil da tag de âncora é o hreflang, que permite indicar qual é o 
+    idioma principal do site para onde o link está desviando o fluxo de navegação. Isso vai 
+    permitir avisar ao navegador e a softwares de tradução como lidar caso o visitante 
+    opte por traduzir automaticamente os conteúdos.-->
+
+    <h2><hr>Utilizando a tag hreflang</hr></h2>
+    <a href="https://www.w3schools.com/html/" hreflang="en">Site da WeSchools (em inglês)
+    </a>
+
+    <!--A técnica frame está em desuso,porém podemos utilizar como por exemplo o blank e self. Utilizadas para controlar onde o site irá abrir.-->
+    <h2><hr>Blank, self, top, parent, nome-do-frame. Estão em quase DESUSO!</hr></h2>
+    <a href="pagina.html" target="_self">Continuar navegando no site
+    </a>
+
+    <a href="https://github.com/gustavoguanabara" target="_blank">Abrir perfil do GitHub em nova janela
+    </a>2
+
+    <!-- Existe um recurso interessante para links que é indicar qual é a natureza do destino usando o atributo rel. Esse atributo aceita vários valores...
+    Next indica que o link é para a próxima parte do documento atual.
+
+    Prev indica que o link é para a parte anterior do documento atual.
+
+    Author indica que é um link para o site do autor do artigo atual.
+
+    External indica que é um link para outro site que não faz parte do site.
+    nofollow indica que é um link oara um site não endossado, como um link pago.
+    -->
+
+    <a href="pagina.html2" target="_self" rel="next">
+        Continuar navegando no site.
+    </a>
+
+    <a href="hhtps://gustavoguarnabara.github.com" target="_self" rel="external">
+        Abrir perfil GitHub em nova janela.
+    </a>
+
+    <h2>Usando links externos</h2>
+
+    <p>Você pode acessar o site <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o canal no <a href="https://youtube.com/curso em video/" target="_blank" rel="external">YouTube</a></p>
+
+    <h2>Usando link internos</h2>
+    <p>Está página é de oferecimento <a href="https:/www.hostnet.com.br" target="_blank" rel="nofollow">Hostnet</a></p>
+    <p>Esta é a primeira página do site. Se você quiser pode acesssar também a <a href="pag002.html" target="_self" rel="next">segunda página</a></p>
+
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livros/Meu amor!.pdf" download="Meu amor!.pdf" type="application/pdf">Baixar livro em Pdf.</a></li>
+        <li><a href="livros/Meu amor.zip" download="livros/Meu amor.zip" type="application/zip">Livro compactado em ZIP.</a></li>
+    </ul>
+    
+    
+    
+
+    
+    
+</body>
+</html>

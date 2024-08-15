@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-size: inherit;
+  }
+
+  h1 {
+    color: #f9a825;
+    text-align: center;
+  }
+
+  .container {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .character {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .character h2 {
+    color: #f9a825;
+  }
+
+  .character p {
+    margin-bottom: 10px;
+  }
+
+  .character a {
+    color: #f9a825;
+    text-decoration: none;
+  }
